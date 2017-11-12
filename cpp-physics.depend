@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1510515977 source:/home/grzala/Desktop/cpp-physics/main.cpp
+	"GameA.h"
+	<iostream>
+
+1510517166 /home/grzala/Desktop/cpp-physics/include/Engine.h
+	<ctime>
+	<iostream>
+	<vector>
+	<SFML/Graphics.hpp>
+	"Object.h"
+
+1510517192 source:/home/grzala/Desktop/cpp-physics/src/Engine.cpp
+	"Engine.h"
+
+1510517479 source:/home/grzala/Desktop/cpp-physics/src/Object.cpp
+	"Object.h"
+
+1510517127 /home/grzala/Desktop/cpp-physics/include/Object.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	"Component.h"
+	"Renderer.h"
+	"Trans.h"
+	"Collider.h"
+
+1510516618 /home/grzala/Desktop/cpp-physics/include/Component.h
+	<ComponentManager.h>
+
+1510516681 /home/grzala/Desktop/cpp-physics/include/Renderer.h
+	<SFML/Graphics.hpp>
+	"Component.h"
+	"Trans.h"
+
+1510513872 /home/grzala/Desktop/cpp-physics/include/Transform.h
+	<SFML/System/Vector2.hpp>
+	"Component.h"
+
+1510515497 /home/grzala/Desktop/cpp-physics/include/Collider.h
+	"Component.h"
+
+1510516696 source:/home/grzala/Desktop/cpp-physics/src/Renderer.cpp
+	"Renderer.h"
+
+1510517467 source:/home/grzala/Desktop/cpp-physics/src/Transform.cpp
+	"Trans.h"
+
+1510517400 /home/grzala/Desktop/cpp-physics/include/Trans.h
+	<SFML/System/Vector2.hpp>
+	"Component.h"
+
+1510514055 /home/grzala/Desktop/cpp-physics/include/GameA.h
+	"Engine.h"
+
+1510517274 source:/home/grzala/Desktop/cpp-physics/src/GameA.cpp
+	"GameA.h"
+
+1510515711 source:/home/grzala/Desktop/cpp-physics/src/Collider.cpp
+	<Collider.h>
+
+1510516592 source:/home/grzala/Desktop/cpp-physics/src/Component.cpp
+	<Component.h>
+
+1510516625 /home/grzala/Desktop/cpp-physics/include/ComponentManager.h
+
