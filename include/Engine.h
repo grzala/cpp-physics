@@ -31,6 +31,7 @@ class Engine
         virtual void update();
         virtual void handleInput();
         virtual void render();
+        virtual void draw(sf::RenderWindow* app) {};
 
         sf::RenderWindow* app;
 

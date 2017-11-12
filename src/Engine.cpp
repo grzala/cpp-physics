@@ -75,6 +75,9 @@ void Engine::render()
         object->render(app);
     }
 
+    draw(app);
+
+
     // Update the window
     app->display();
 }

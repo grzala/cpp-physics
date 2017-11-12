@@ -12,7 +12,9 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add library="sfml-graphics" />
@@ -27,6 +29,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -40,7 +43,25 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="cb.bmp" />
+		<Unit filename="include/CircleRenderer.h" />
+		<Unit filename="include/Collider.h" />
+		<Unit filename="include/Component.h" />
+		<Unit filename="include/Engine.h" />
+		<Unit filename="include/GameA.h" />
+		<Unit filename="include/Object.h" />
+		<Unit filename="include/RectangleRenderer.h" />
+		<Unit filename="include/Renderer.h" />
+		<Unit filename="include/Trans.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/CircleRenderer.cpp" />
+		<Unit filename="src/Collider.cpp" />
+		<Unit filename="src/Component.cpp" />
+		<Unit filename="src/Engine.cpp" />
+		<Unit filename="src/GameA.cpp" />
+		<Unit filename="src/Object.cpp" />
+		<Unit filename="src/RectangleRenderer.cpp" />
+		<Unit filename="src/Renderer.cpp" />
+		<Unit filename="src/Transform.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
