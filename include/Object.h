@@ -8,6 +8,7 @@
 #include <iostream>
 
 #include "Component.h"
+#include "CircleRenderer.h"
 #include "Renderer.h"
 #include "Trans.h"
 #include "Collider.h"
@@ -22,6 +23,11 @@ class Object
 
         void update();
         void render(sf::RenderWindow* app);
+
+        void setComponents(Renderer* r, Collider* c, Trans* tr);
+
+        void setPos(double x, double y) {tr->setPos(x, y);}
+        void accelerate(double x, double y) {tr->accel(x, y);}
 
 
     private:

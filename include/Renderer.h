@@ -6,7 +6,9 @@
 #include "Component.h"
 #include "Trans.h"
 
-class Trans;
+enum RendererType {
+    CIRCLE,
+};
 
 class Renderer: public Component
 {
@@ -14,8 +16,13 @@ class Renderer: public Component
         Renderer();
         virtual ~Renderer();
 
-        void render(sf::RenderWindow* app, Trans* trans);
+        virtual void render(sf::RenderWindow* app, Trans* trans) = 0;
+
+        RendererType getType() {return type;}
+
     protected:
+        RendererType type;
+
     private:
 };
 

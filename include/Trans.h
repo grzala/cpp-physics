@@ -16,6 +16,7 @@ class Trans: public Component
 
         void setPos(double x, double y) {pos.x = x; pos.y = y;}
         void setVel(double x, double y) {vel.x = x; vel.y = y;}
+        void accel(double x, double y) {vel.x += x; vel.y += y;}
 
         Vector2f getPosition() {return pos;}
         Vector2f getVelocity() {return vel;}

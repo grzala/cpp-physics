@@ -8,6 +8,10 @@
 #include <SFML/Graphics.hpp>
 
 #include "Object.h"
+#include "CircleRenderer.h"
+#include "RectangleRenderer.h"
+#include "Trans.h"
+#include "Collider.h"
 
 
 

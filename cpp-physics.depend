@@ -3,24 +3,29 @@
 	"GameA.h"
 	<iostream>
 
-1510517166 /home/grzala/Desktop/cpp-physics/include/Engine.h
+1510519015 /home/grzala/Desktop/cpp-physics/include/Engine.h
 	<ctime>
 	<iostream>
 	<vector>
 	<SFML/Graphics.hpp>
 	"Object.h"
+	"CircleRenderer.h"
+	"RectangleRenderer.h"
+	"Trans.h"
+	"Collider.h"
 
-1510517192 source:/home/grzala/Desktop/cpp-physics/src/Engine.cpp
+1510517527 source:/home/grzala/Desktop/cpp-physics/src/Engine.cpp
 	"Engine.h"
 
-1510517479 source:/home/grzala/Desktop/cpp-physics/src/Object.cpp
+1510518321 source:/home/grzala/Desktop/cpp-physics/src/Object.cpp
 	"Object.h"
 
-1510517127 /home/grzala/Desktop/cpp-physics/include/Object.h
+1510518430 /home/grzala/Desktop/cpp-physics/include/Object.h
 	<SFML/Graphics.hpp>
 	<vector>
 	<iostream>
 	"Component.h"
+	"CircleRenderer.h"
 	"Renderer.h"
 	"Trans.h"
 	"Collider.h"
@@ -28,7 +33,7 @@
 1510516618 /home/grzala/Desktop/cpp-physics/include/Component.h
 	<ComponentManager.h>
 
-1510516681 /home/grzala/Desktop/cpp-physics/include/Renderer.h
+1510518082 /home/grzala/Desktop/cpp-physics/include/Renderer.h
 	<SFML/Graphics.hpp>
 	"Component.h"
 	"Trans.h"
@@ -40,20 +45,20 @@
 1510515497 /home/grzala/Desktop/cpp-physics/include/Collider.h
 	"Component.h"
 
-1510516696 source:/home/grzala/Desktop/cpp-physics/src/Renderer.cpp
+1510517880 source:/home/grzala/Desktop/cpp-physics/src/Renderer.cpp
 	"Renderer.h"
 
 1510517467 source:/home/grzala/Desktop/cpp-physics/src/Transform.cpp
 	"Trans.h"
 
-1510517400 /home/grzala/Desktop/cpp-physics/include/Trans.h
+1510518415 /home/grzala/Desktop/cpp-physics/include/Trans.h
 	<SFML/System/Vector2.hpp>
 	"Component.h"
 
 1510514055 /home/grzala/Desktop/cpp-physics/include/GameA.h
 	"Engine.h"
 
-1510517274 source:/home/grzala/Desktop/cpp-physics/src/GameA.cpp
+1510519074 source:/home/grzala/Desktop/cpp-physics/src/GameA.cpp
 	"GameA.h"
 
 1510515711 source:/home/grzala/Desktop/cpp-physics/src/Collider.cpp
@@ -63,4 +68,16 @@
 	<Component.h>
 
 1510516625 /home/grzala/Desktop/cpp-physics/include/ComponentManager.h
+
+1510518811 /home/grzala/Desktop/cpp-physics/include/CircleRenderer.h
+	"Renderer.h"
+
+1510518825 source:/home/grzala/Desktop/cpp-physics/src/CircleRenderer.cpp
+	"CircleRenderer.h"
+
+1510518976 /home/grzala/Desktop/cpp-physics/include/RectangleRenderer.h
+	"Renderer.h"
+
+1510519052 source:/home/grzala/Desktop/cpp-physics/src/RectangleRenderer.cpp
+	"RectangleRenderer.h"
 

@@ -2,13 +2,22 @@
 
 Object::Object()
 {
-    renderer = new Renderer();
+    renderer = new CircleRenderer();
     collider = new Collider();
     tr = new Trans();
 
-    tr->setPos(20, 20);
-    tr->setVel(0.05, 0.05);
+    components.push_back(renderer);
+    components.push_back(collider);
+    components.push_back(tr);
+}
 
+void Object::setComponents(Renderer* r, Collider* c, Trans* t)
+{
+    renderer = r;
+    collider = c;
+    tr = t;
+
+    components.clear();
     components.push_back(renderer);
     components.push_back(collider);
     components.push_back(tr);
